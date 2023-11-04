@@ -282,12 +282,95 @@ footer {
     line-height: 0; 
 }
 
-@keyframes rotating {
-    from {
-        transform: rotate(0);
-    } to {
-        transform: rotate(360deg);
-    }
+
+.gift {
+    /* background-color: var(--bg); */
+    background-image: url(img/bg-address.png);
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.gift h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.gift h4 {
+    font-family: 'Bodoni Moda', serif;
+    font-style: bold;
+    font-size: 2rem;
+}
+
+.gift p {
+    font-family: 'Bodoni Moda', serif;
+    font-style: bold;
+    font-size: 1rem;
+}
+
+.gift h5 {
+    font-family: 'Bodoni Moda', serif;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+.gift .cardwedding {
+    min-height: 20vh;
+}
+
+.gift .bca {
+    width: 11rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.gift .mandiri {
+    width: 15rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.thankyou {
+    background-color: white;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.thankyou .barcodepic {
+    margin-top: 2rem;
+    height: 65vh;
+    width: 65vh;
+}
+
+.thankyou h4 {
+    font-family: 'Bodoni Moda', serif;
+    font-style: bold;
+    font-size: 2rem;
+}
+
+.thankyou p {
+    font-size: 1rem;
+}
+
+.downapp {
+    background-color: white;
+    background-image: url(img/DSC00683.JPG);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-size: cover;
+    background-position: center;
+    min-height: 110vh;
+    width: 100%;
 }
 
 /* media query */
@@ -310,6 +393,11 @@ footer {
         min-height: 600px;
         font-size: 100%;
     }
+
+    .downapp {
+        min-height: 90vh;
+        width: 100%;
+    }
     
 }
 
@@ -326,5 +414,10 @@ footer {
 
     .address .fontcard {
         margin-top: 0rem;
+    }
+
+    .downapp {
+        min-height: 40vh;
+        width: 100%;
     }
 }
